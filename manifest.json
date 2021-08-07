@@ -1,0 +1,13 @@
+{
+    "name": "chess tempo fen",
+    "description": "grab chess tempo fens",
+    "version": "1.0",
+    "manifest_version": 3,
+    "action": {
+	"default_title": "click to alert fen"
+    },
+    "permissions": ["activeTab","scripting","clipboardWrite"],
+    "background": {
+	"service_worker": "background.js"
+    }
+}

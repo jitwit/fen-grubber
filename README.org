@@ -1,0 +1,2 @@
+mini script to make it easier to analyze chess tempo puzzles by
+extracting fen for use elsewhere.
