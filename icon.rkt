@@ -10,9 +10,9 @@
 (define b '(17 126 255))
 
 (define (letter l)
-  (text (string l) '(bold . "APL385 Unicode") 18))
+  (text (string l) '(bold . "APL385 Unicode") 17))
 
-(define flav.ico
+(define icon
   (cc-superimpose (colorize (filled-rectangle 32 32) bg)
                   (hc-append (colorize (letter #\F) r)
                              (colorize (letter #\E) y)
@@ -25,6 +25,6 @@
   (with-output-to-file icon.png
     (lambda ()
       (display
-       (convert flav.ico 'png-bytes)))))
+       (convert icon 'png-bytes)))))
 
-flav.ico
+icon

@@ -7,7 +7,7 @@
     "version": "1.0",
     "manifest_version": 3,
     "action": {
-	"default_title": "click to alert fen"
+	"default_title": "click to grub fen"
     },
     "permissions": ["activeTab", "scripting", "clipboardWrite"],
     "background": {

@@ -1,12 +1,12 @@
 // this "script" runs when the extension icon is clicked
-var FEN_START = 'FEN: ';
+var FEN = 'FEN: ';
 
 function extract_fen () {
     var txt = document.body.innerText;
-    var a = txt.search(FEN_START);
+    var a = txt.search(FEN);
     if (a>0) {
 	var b = txt.substring(a).search('\n');
-	var fen = txt.substring(a+FEN_START.length,a+b);
+	var fen = txt.substring(a+FEN.length,a+b);
 	navigator.clipboard.writeText(fen).then(
 	    () => {},
 	    () => alert('failed to copy fen')
