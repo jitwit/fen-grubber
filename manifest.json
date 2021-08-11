@@ -1,6 +1,6 @@
 {
     "name": "fen grubber",
-    "description": "grab chess tempo fens",
+    "description": "grab fens from some webpages",
     "icons": {
         "128": "icon.png"
     },
