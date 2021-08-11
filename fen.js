@@ -20,10 +20,15 @@ function chesstempo_fen () {
     }
 }
 
-function lichess_fen () {
+function lichess_analysis_fen () {
     var fenpgn = document.getElementsByClassName('fen-pgn');
     var fen = fenpgn[0].children[0].children[1].value;
-    console.log(fen);
+    yank_fen (fen);
+}
+
+function lichess_broadcast_fen () {
+    var downloads = document.getElementsByClassName('form3')[0];
+    var fen = downloads.children[4].children[1].value;
     yank_fen (fen);
 }
 
@@ -32,7 +37,11 @@ function extract_fen () {
     if (where === 'chesstempo.com') {
 	chesstempo_fen();
     } else if (where === 'lichess.org') {
-	lichess_fen ();
+	if (window.location.pathname.split('/')[1] === 'broadcast') {
+	    lichess_broadcast_fen ();
+	} else {
+	    lichess_analysis_fen ();
+	}
     } else {
 	alert('idk how to get a fen from ',where);
     }
