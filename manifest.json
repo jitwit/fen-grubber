@@ -12,5 +12,13 @@
     "permissions": ["activeTab", "scripting", "clipboardWrite"],
     "background": {
 	"service_worker": "background.js"
-    }
+    },
+    "content_scripts": [{
+        "matches": ["*://www.chess.com/*"],
+        "css": ["chesscom-styles.css"]
+    }],
+    "web_accessible_resources": [{
+	"resources": ["pics/*"],
+        "matches": ["*://www.chess.com/*"]
+    }]
 }

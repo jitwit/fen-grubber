@@ -1,0 +1,39 @@
+.wp {
+    background-image:url('chrome-extension://__MSG_@@extension_id__/pics/pieces/fresca/wP.svg') !important;
+}
+.wn {
+    background-image:url('chrome-extension://__MSG_@@extension_id__/pics/pieces/fresca/wN.svg') !important;
+}
+.wb {
+    background-image:url('chrome-extension://__MSG_@@extension_id__/pics/pieces/fresca/wB.svg') !important;
+}
+.wr {
+    background-image:url('chrome-extension://__MSG_@@extension_id__/pics/pieces/fresca/wR.svg') !important;
+}
+.wq {
+    background-image:url('chrome-extension://__MSG_@@extension_id__/pics/pieces/fresca/wQ.svg') !important;
+}
+.wk {
+    background-image:url('chrome-extension://__MSG_@@extension_id__/pics/pieces/fresca/wK.svg') !important;
+}
+.bp {
+    background-image:url('chrome-extension://__MSG_@@extension_id__/pics/pieces/fresca/bP.svg') !important;
+}
+.bn {
+    background-image:url('chrome-extension://__MSG_@@extension_id__/pics/pieces/fresca/bN.svg') !important;
+}
+.bb {
+    background-image:url('chrome-extension://__MSG_@@extension_id__/pics/pieces/fresca/bB.svg') !important;
+}
+.br {
+    background-image:url('chrome-extension://__MSG_@@extension_id__/pics/pieces/fresca/bR.svg') !important;
+}
+.bq {
+    background-image:url('chrome-extension://__MSG_@@extension_id__/pics/pieces/fresca/bQ.svg') !important;
+}
+.bk {
+    background-image:url('chrome-extension://__MSG_@@extension_id__/pics/pieces/fresca/bK.svg') !important;
+}
+.board {
+    background-image:url('chrome-extension://__MSG_@@extension_id__/pics/board.png') !important;
+}
