@@ -1,3 +1,6 @@
+.board, .promo-preview, .game-preview-component {
+    background-image:url('chrome-extension://__MSG_@@extension_id__/pics/board.png') !important;
+}
 .wp {
     background-image:url('chrome-extension://__MSG_@@extension_id__/pics/pieces/cburnett/wP.svg') !important;
 }
@@ -34,51 +37,42 @@
 .bk {
     background-image:url('chrome-extension://__MSG_@@extension_id__/pics/pieces/cburnett/bK.svg') !important;
 }
-.board, .promo-preview, .game-preview-component {
-    background-image:url('chrome-extension://__MSG_@@extension_id__/pics/board.png') !important;
-}
-img[alt*="wp"] {
+img[alt~="wp"] {
     content:url('chrome-extension://__MSG_@@extension_id__/pics/pieces/cburnett/wP.svg') !important;
 }
-img[alt*="wn"] {
+img[alt~="wn"] {
     content:url('chrome-extension://__MSG_@@extension_id__/pics/pieces/cburnett/wN.svg') !important;
 }
-img[alt*="wb"] {
+img[alt~="wb"] {
     content:url('chrome-extension://__MSG_@@extension_id__/pics/pieces/cburnett/wB.svg') !important;
 }
-img[alt*="wr"] {
+img[alt~="wr"] {
     content:url('chrome-extension://__MSG_@@extension_id__/pics/pieces/cburnett/wR.svg') !important;
 }
-img[alt*="wq"] {
+img[alt~="wq"] {
     content:url('chrome-extension://__MSG_@@extension_id__/pics/pieces/cburnett/wQ.svg') !important;
 }
-img[alt*="wk"] {
+img[alt~="wk"] {
     content:url('chrome-extension://__MSG_@@extension_id__/pics/pieces/cburnett/wK.svg') !important;
 }
-img[alt*="bp"] {
+img[alt~="bp"] {
     content:url('chrome-extension://__MSG_@@extension_id__/pics/pieces/cburnett/bP.svg') !important;
 }
-img[alt*="bn"] {
+img[alt~="bn"] {
     content:url('chrome-extension://__MSG_@@extension_id__/pics/pieces/cburnett/bN.svg') !important;
 }
-img[alt*="bb"] {
+img[alt~="bb"] {
     content:url('chrome-extension://__MSG_@@extension_id__/pics/pieces/cburnett/bB.svg') !important;
 }
-img[alt*="br"] {
+img[alt~="br"] {
     content:url('chrome-extension://__MSG_@@extension_id__/pics/pieces/cburnett/bR.svg') !important;
 }
-img[alt*="bq"] {
+img[alt~="bq"] {
     content:url('chrome-extension://__MSG_@@extension_id__/pics/pieces/cburnett/bQ.svg') !important;
 }
-img[alt*="bk"] {
+img[alt~="bk"] {
     content:url('chrome-extension://__MSG_@@extension_id__/pics/pieces/cburnett/bK.svg') !important;
 }
-
-
 .highlight {
     background-color: #F2F1AB !important;
 }
-/* polygon.arrow { */
-/*     fill: rgba(242, 120, 180, 0.8); !important; */
-/* } */
-# lichess styles
