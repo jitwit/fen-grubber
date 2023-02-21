@@ -73,6 +73,3 @@ img[alt~="bq"] {
 img[alt~="bk"] {
     content:url('chrome-extension://__MSG_@@extension_id__/pics/pieces/cburnett/bK.svg') !important;
 }
-.highlight {
-    background-color: #F2F1AB !important;
-}
