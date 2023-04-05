@@ -14,7 +14,7 @@
     background-image:url('chrome-extension://__MSG_@@extension_id__/pics/pieces/crab/wR.png') !important;
 }
 .wq {
-    background-image:url('chrome-extension://__MSG_@@extension_id__/pics/pieces/crab/wQ.svg') !important;
+    background-image:url('chrome-extension://__MSG_@@extension_id__/pics/pieces/crab/wQ.png') !important;
 }
 .wk {
     background-image:url('chrome-extension://__MSG_@@extension_id__/pics/pieces/crab/wK.png') !important;
@@ -32,7 +32,7 @@
     background-image:url('chrome-extension://__MSG_@@extension_id__/pics/pieces/crab/bR.png') !important;
 }
 .bq {
-    background-image:url('chrome-extension://__MSG_@@extension_id__/pics/pieces/crab/bQ.svg') !important;
+    background-image:url('chrome-extension://__MSG_@@extension_id__/pics/pieces/crab/bQ.png') !important;
 }
 .bk {
     background-image:url('chrome-extension://__MSG_@@extension_id__/pics/pieces/crab/bK.png') !important;
@@ -50,7 +50,7 @@ img[alt~="wr"] {
     content:url('chrome-extension://__MSG_@@extension_id__/pics/pieces/crab/wR.png') !important;
 }
 img[alt~="wq"] {
-    content:url('chrome-extension://__MSG_@@extension_id__/pics/pieces/crab/wQ.svg') !important;
+    content:url('chrome-extension://__MSG_@@extension_id__/pics/pieces/crab/wQ.png') !important;
 }
 img[alt~="wk"] {
     content:url('chrome-extension://__MSG_@@extension_id__/pics/pieces/crab/wK.png') !important;
@@ -68,7 +68,7 @@ img[alt~="br"] {
     content:url('chrome-extension://__MSG_@@extension_id__/pics/pieces/crab/bR.png') !important;
 }
 img[alt~="bq"] {
-    content:url('chrome-extension://__MSG_@@extension_id__/pics/pieces/crab/bQ.svg') !important;
+    content:url('chrome-extension://__MSG_@@extension_id__/pics/pieces/crab/bQ.png') !important;
 }
 img[alt~="bk"] {
     content:url('chrome-extension://__MSG_@@extension_id__/pics/pieces/crab/bK.png') !important;
