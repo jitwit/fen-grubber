@@ -2,7 +2,7 @@
     background-image:url('chrome-extension://__MSG_@@extension_id__/pics/board.png') !important;
 }
 .wp {
-    background-image:url('chrome-extension://__MSG_@@extension_id__/pics/pieces/crab/wP.svg') !important;
+    background-image:url('chrome-extension://__MSG_@@extension_id__/pics/pieces/crab/wP.png') !important;
 }
 .wn {
     background-image:url('chrome-extension://__MSG_@@extension_id__/pics/pieces/crab/wN.png') !important;
@@ -20,7 +20,7 @@
     background-image:url('chrome-extension://__MSG_@@extension_id__/pics/pieces/crab/wK.png') !important;
 }
 .bp {
-    background-image:url('chrome-extension://__MSG_@@extension_id__/pics/pieces/crab/bP.svg') !important;
+    background-image:url('chrome-extension://__MSG_@@extension_id__/pics/pieces/crab/bP.png') !important;
 }
 .bn {
     background-image:url('chrome-extension://__MSG_@@extension_id__/pics/pieces/crab/bN.png') !important;
@@ -38,7 +38,7 @@
     background-image:url('chrome-extension://__MSG_@@extension_id__/pics/pieces/crab/bK.png') !important;
 }
 img[alt~="wp"] {
-    content:url('chrome-extension://__MSG_@@extension_id__/pics/pieces/crab/wP.svg') !important;
+    content:url('chrome-extension://__MSG_@@extension_id__/pics/pieces/crab/wP.png') !important;
 }
 img[alt~="wn"] {
     content:url('chrome-extension://__MSG_@@extension_id__/pics/pieces/crab/wN.png') !important;
