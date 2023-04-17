@@ -1,4 +1,4 @@
-.board, .promo-preview, .game-preview-component {
+.board, .promo-preview, .game-preview-component, .board-popover-component {
     background-image:url('chrome-extension://__MSG_@@extension_id__/pics/board.png') !important;
 }
 .wp {
