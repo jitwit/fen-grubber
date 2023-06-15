@@ -62,7 +62,7 @@ img[alt~="bn"] {
     content:url('chrome-extension://__MSG_@@extension_id__/pics/pieces/crab/bN.png') !important;
 }
 img[alt~="bb"] {
-    content:url('chrome-extension://__MSG_@@extension_id__/pics/pieces/crab/bB.svg') !important;
+    content:url('chrome-extension://__MSG_@@extension_id__/pics/pieces/crab/bB.png') !important;
 }
 img[alt~="br"] {
     content:url('chrome-extension://__MSG_@@extension_id__/pics/pieces/crab/bR.png') !important;
