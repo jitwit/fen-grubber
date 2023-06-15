@@ -1,24 +1,24 @@
 {
-    "name": "THE FANS",
-    "description": "UWUWUWUWUWUWUWUWUWUWUW",
-    "icons": {
-        "128": "ICONBUNNY.png"
-    },
-    "version": "1.0",
-    "manifest_version": 3,
-    "action": {
-	"default_title": "click to grub fen"
-    },
-    "permissions": [],
-    "background": {
-	"service_worker": "background.js"
-    },
-    "content_scripts": [{
-        "matches": ["*://www.chess.com/*"],
-        "css": ["chesscom-styles.css"]
-    }],
-    "web_accessible_resources": [{
-	"resources": ["pics/*"],
-        "matches": ["*://www.chess.com/*"]
-    }]
+  "name": "THE FANS",
+  "description": "UWUWUWUWUWUWUWUWUWUWUW",
+  "icons": {
+    "128": "ICONBUNNY.png"
+  },
+  "version": "1.0",
+  "manifest_version": 3,
+  "action": {
+    "default_title": "click to grub fen"
+  },
+  "permissions": [],
+  "background": {
+  },
+  "content_scripts": [{
+    "matches": ["*://www.chess.com/*"],
+    "css": ["chesscom-styles.css"],
+    "js": ["alas-alas.js"]
+  }],
+  "web_accessible_resources": [{
+    "resources": ["pics/*"],
+    "matches": ["*://www.chess.com/*"]
+  }]
 }
