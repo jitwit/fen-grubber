@@ -1,4 +1,5 @@
 .PHONY : FANS.zip
 
 FANS.zip :
-	zip -r FANS.zip .
+	rm -f $@
+	zip -r $@ .
