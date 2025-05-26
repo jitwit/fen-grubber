@@ -28,7 +28,6 @@ function crossword_clue () {
   var clue = document.getElementsByClassName('selected')[1].innerText;
   clue = clue.substring(clue.indexOf('\n') + 1);
   open('https://google.com/search?q=site:tryhardguides.com ' + clue);
-  open(query);
 }
 
 // <div id="board-layout-main" class="board-layout-main">
