@@ -38,11 +38,9 @@ function extract_fen () {
   var path = where.pathname.split('/');
   switch (where.host) {
   case 'chesstempo.com':
-    chesstempo_fen();
-    break;
+    chesstempo_fen(); break;
   case 'downforacross.com':
-    crossword_clue();
-    break;
+    crossword_clue(); break;
   default:
     alert('idk how to get a fen from ', where);
   }
