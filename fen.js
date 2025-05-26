@@ -15,9 +15,9 @@ function analysis_board_url (fen) {
 function chesstempo_fen () {
   var txt = document.body.innerText;
   var a = txt.search(FEN_CT);
-  if (a>0) {
+  if (a > 0) {
     var b = txt.substring(a).search('\n');
-    var fen = txt.substring(a+FEN_CT.length,a+b);
+    var fen = txt.substring(a + FEN_CT.length, a + b);
     window.open(analysis_board_url(fen), '_blank');
   } else {
     alert('no fen to copy');
