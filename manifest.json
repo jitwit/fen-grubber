@@ -1,24 +1,33 @@
 {
-    "name": "fen grubber",
-    "description": "grab fens from some webpages",
-    "icons": {
-        "128": "ICONBUNNY.png"
-    },
-    "version": "1.0",
-    "manifest_version": 3,
-    "action": {
-	"default_title": "click to grub fen"
-    },
-    "permissions": ["activeTab", "scripting", "clipboardWrite"],
-    "background": {
-	"service_worker": "background.js"
-    },
-    "content_scripts": [{
-        "matches": ["*://www.chess.com/*"],
-        "css": ["chesscom-styles.css"]
-    }],
-    "web_accessible_resources": [{
-	"resources": ["pics/*"],
-        "matches": ["*://www.chess.com/*"]
-    }]
+  "name": "fen grubber",
+  "description": "grab fens from some webpages",
+  "icons": {
+    "128": "ICONBUNNY.png"
+  },
+  "version": "1.0",
+  "manifest_version": 3,
+  "action": {
+    "default_title": "click to grub fen"
+  },
+  "permissions": ["activeTab", "scripting", "clipboardWrite"],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "commands": {
+    "crossword-link-command": {
+      "suggested_key": {
+	"default": "Ctrl+Shift+L",
+	"mac": "Command+Shift+L"
+      },
+      "description": "put link to share with others in clipboard"
+    }
+  },
+  "content_scripts": [{
+    "matches": ["*://www.chess.com/*"],
+    "css": ["chesscom-styles.css"]
+  }],
+  "web_accessible_resources": [{
+    "resources": ["pics/*"],
+    "matches": ["*://www.chess.com/*"]
+  }]
 }

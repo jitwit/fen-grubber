@@ -4,3 +4,12 @@ chrome.action.onClicked.addListener((tab) => {
     files: ['fen.js']
   });
 });
+
+chrome.command.onCommand.addListener((command, tab) => {
+  if (command === "crossword-link-command") {
+    chrome.scripting.executeScript({
+      target: {tabId: tab.id},
+      files: ['crossword-link.js']
+    });
+  }
+});
