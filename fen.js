@@ -30,9 +30,6 @@ function crossword_clue () {
   open('https://google.com/search?q=site:tryhardguides.com ' + clue);
 }
 
-// <div id="board-layout-main" class="board-layout-main">
-// <div class="piece bn square-36" style=""></div>
-
 function extract_fen () {
   var where = window.location;
   var path = where.pathname.split('/');

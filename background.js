@@ -5,7 +5,7 @@ chrome.action.onClicked.addListener((tab) => {
   });
 });
 
-chrome.command.onCommand.addListener((command, tab) => {
+chrome.commands.onCommand.addListener((command, tab) => {
   if (command === "crossword-link-command") {
     chrome.scripting.executeScript({
       target: {tabId: tab.id},
