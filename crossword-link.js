@@ -1,7 +1,6 @@
 function write_link () {
-  var url = window.location.href;
-  var dumpr = ":TimDumper:";
-  var link = `${dumpr} @Virgins ${dumpr} ${url} ${dumpr}`;
+  var td = ":TimDumper:";
+  var link = `${td} @Virgins ${td} ${window.location.href} ${td}`;
   navigator.clipboard.writeText(link).then(
     () => {},
     () => alert('failed to write link')
