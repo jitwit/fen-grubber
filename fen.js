@@ -18,7 +18,7 @@ function chesstempo_fen () {
   if (a > 0) {
     var b = txt.substring(a).search('\n');
     var fen = txt.substring(a + FEN_CT.length, a + b);
-    window.open(analysis_board_url(fen), '_blank');
+    open(analysis_board_url(fen));
   } else {
     alert('no fen to copy');
   }
