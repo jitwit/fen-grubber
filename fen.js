@@ -24,20 +24,11 @@ function chesstempo_fen () {
   }
 }
 
-function crossword_clue () {
-  var clue = document.getElementsByClassName('selected')[1].innerText;
-  clue = clue.substring(clue.search('\n') + 1);
-  open('https://google.com/search?q=site:tryhardguides.com ' + clue);
-}
-
 function extract_fen () {
   var where = window.location;
-  var path = where.pathname.split('/');
   switch (where.host) {
   case 'chesstempo.com':
     chesstempo_fen(); break;
-  case 'downforacross.com':
-    crossword_clue(); break;
   default:
     alert('idk how to get a fen from ', where);
   }

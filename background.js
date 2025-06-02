@@ -12,4 +12,11 @@ chrome.commands.onCommand.addListener((command, tab) => {
       files: ['crossword-link.js']
     });
   }
+  else if (command === "crossword-clue-command") {
+    chrome.scripting.executeScript({
+      target: {tabId: tab.id},
+      files: ['crossword-clue.js']
+    });
+  }
+  else {};
 });

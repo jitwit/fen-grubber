@@ -20,6 +20,13 @@
 	"mac": "Command+Shift+L"
       },
       "description": "put link to share with others in clipboard"
+    },
+    "crossword-clue-command": {
+      "suggested_key": {
+	"default": "Ctrl+Shift+S",
+	"mac": "Command+Shift+S"
+      },
+      "description": "search currently highlighted crossword clue in new tab"
     }
   },
   "content_scripts": [{
