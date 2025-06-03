@@ -38,7 +38,8 @@
   },
   "content_scripts": [{
     "matches": ["*://www.chess.com/*"],
-    "css": ["chesscom-styles.css"]
+    "css": ["chesscom-styles.css"],
+    "js": ["alas-alas.js"]
   }],
   "web_accessible_resources": [{
     "resources": ["pics/*"],
