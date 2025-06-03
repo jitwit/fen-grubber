@@ -12,7 +12,7 @@ function analysis_board_url (fen) {
   return 'https://lichess.org/analysis/standard/' + fen.replace(/\s/g , '_');
 }
 
-function chesstempo_fen () {
+function extract_fen () {
   var txt = document.body.innerText;
   var a = txt.search(FEN_CT);
   if (a > 0) {
@@ -24,14 +24,4 @@ function chesstempo_fen () {
   }
 }
 
-function extract_fen () {
-  var where = window.location;
-  switch (where.host) {
-  case 'chesstempo.com':
-    chesstempo_fen(); break;
-  default:
-    alert('idk how to get a fen from ', where);
-  }
-}
-
-extract_fen();
+if (window.location.host === "chesstempo.com") { extract_fen (); }

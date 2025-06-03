@@ -7,4 +7,4 @@ function write_link () {
   );
 };
 
-write_link ();
+if (window.location.host === "downforacross.com") { write_link (); }

@@ -19,5 +19,11 @@ chrome.commands.onCommand.addListener((command, tab) => {
       files: ["crossword-clue.js"]
     });
     break;
+  case "chess-pgn-command":
+    chrome.scripting.executeScript({
+      target: {tabId: tab.id},
+      files: ["chess-freenalysis.js"]
+    });
+    break;
   }
 });

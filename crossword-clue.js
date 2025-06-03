@@ -4,4 +4,4 @@ function crossword_clue () {
   open('https://google.com/search?q=site:tryhardguides.com ' + clue);
 }
 
-crossword_clue ();
+if (window.location.host === "downforacross.com") { crossword_clue (); }

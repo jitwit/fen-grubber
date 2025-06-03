@@ -14,6 +14,13 @@
     "service_worker": "background.js"
   },
   "commands": {
+    "chess-pgn-command": {
+      "suggested_key": {
+	"default": "Ctrl+Shift+F",
+	"mac": "Command+Shift+F"
+      },
+      "description": "from current game, open lichess analysis with game's pgn"
+    },
     "crossword-link-command": {
       "suggested_key": {
 	"default": "Ctrl+Shift+L",
