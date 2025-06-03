@@ -12,11 +12,7 @@ async function import_to_lichess (pgn) {
       },
       body: `pgn=${encodeURIComponent(pgn)}`
     });
-
-    if (!response.ok) {
-      throw new Error(`monacoS: ${response.status}`);
-    }
-
+    if (!response.ok) { throw new Error(`monacoS: ${response.status}`); }
     var result = await response.json();
     open(result.url);
   } catch (error) {
@@ -26,10 +22,8 @@ async function import_to_lichess (pgn) {
 }
 
 async function analyse_freely () {
-  document.getElementsByClassName("share")[0].click();
-  await sleep(300);
-  document.getElementById("tab-pgn").click();
-  await sleep(300);
+  document.getElementsByClassName("share")[0].click(); await sleep(500);
+  document.getElementById("tab-pgn").click(); await sleep(500);
   document.getElementsByClassName("share-menu-tab-pgn-copy")[0].click();
   var pgn = await navigator.clipboard.readText();
   import_to_lichess (pgn);
