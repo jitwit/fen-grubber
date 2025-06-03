@@ -9,7 +9,7 @@
   "action": {
     "default_title": "click to grub fen"
   },
-  "permissions": ["activeTab", "scripting", "clipboardWrite"],
+  "permissions": ["activeTab", "scripting", "clipboardWrite", "clipboardRead"],
   "background": {
     "service_worker": "background.js"
   },
