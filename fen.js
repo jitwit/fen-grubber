@@ -1,4 +1,5 @@
-// this "script" runs when the extension icon is clicked
+// extract chesstempo fens
+
 var FEN_CT = 'FEN: ';
 
 function yank_fen (fen) {

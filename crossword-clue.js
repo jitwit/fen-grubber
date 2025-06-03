@@ -1,3 +1,5 @@
+// take currently selected crossword clue and search in new tab
+
 function crossword_clue () {
   var clue = document.getElementsByClassName('selected')[1].innerText;
   clue = clue.substring(clue.search('\n') + 1);

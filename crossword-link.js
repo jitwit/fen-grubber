@@ -1,3 +1,5 @@
+// convenient way to alert collaborators for crosswords
+
 function write_link () {
   var td = ":TimDumper:"; var url = window.location.href;
   var link = `${td} ${url} ${td} @Virgins ${td}`;

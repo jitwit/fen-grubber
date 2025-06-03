@@ -1,3 +1,5 @@
+// change popup text on chess.com
+
 var o = new MutationObserver(
   (ms) => {
     for (var m of ms) {
