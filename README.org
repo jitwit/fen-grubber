@@ -1,2 +1,5 @@
-mini script to make it easier to analyze chess tempo puzzles by
-extracting fen for use elsewhere.
+started out as a mini script to make it easier to analyze chess tempo
+puzzles by extracting fen for use elsewhere. now does other random
+things like use the lichess piece set on chess.com, automate importing
+games from chess.com to lichess, make links for sharing crosswords,
+and search crossword clues.

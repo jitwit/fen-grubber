@@ -22,8 +22,10 @@ async function import_to_lichess (pgn) {
 }
 
 async function analyse_freely () {
-  document.getElementsByClassName("share")[0].click(); await sleep(500);
-  document.getElementById("tab-pgn").click(); await sleep(500);
+  document.getElementsByClassName("share")[0].click();
+  await sleep(500);
+  document.getElementById("tab-pgn").click();
+  await sleep(500);
   document.getElementsByClassName("share-menu-tab-pgn-copy")[0].click();
   var pgn = await navigator.clipboard.readText();
   import_to_lichess (pgn);
