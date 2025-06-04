@@ -29,7 +29,7 @@ async function analyse_freely () {
   import_to_lichess (pgn);
 }
 
-if (window.location.host === "chess.com" &&
+if (window.location.host === "www.chess.com" &&
     window.location.href.includes("game")) {
   analyse_freely().catch(e => console.log(e));
 }
