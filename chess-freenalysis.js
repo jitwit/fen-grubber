@@ -23,9 +23,10 @@ async function analyse_freely () {
   document.getElementById("tab-pgn").click();
   await sleep(500);
   document.getElementsByClassName("share-menu-tab-pgn-copy")[0].click();
-//  #share-modal > div > div.cc-modal-body.cc-modal-sm > header > button
   var pgn = await navigator.clipboard.readText();
-  import_to_lichess (pgn);
+  var c = "#share-modal > div > div.cc-modal-body.cc-modal-sm > header > button"
+  document.querySelector(c).click() // js path to close button
+  import_to_lichess(pgn);
 }
 
 if (window.location.host === "www.chess.com" &&
