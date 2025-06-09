@@ -13,6 +13,12 @@ chrome.commands.onCommand.addListener((command, tab) => {
       files: ["crossword-link.js"]
     });
     break;
+  case "crossword-check-command":
+    chrome.scripting.executeScript({
+      target: {tabId: tab.id},
+      files: ["crossword-check.js"]
+    });
+    break;
   case "crossword-clue-command":
     chrome.scripting.executeScript({
       target: {tabId: tab.id},
