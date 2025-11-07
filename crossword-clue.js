@@ -7,4 +7,4 @@ function crossword_clue () {
   open("https://google.com/search?udm=14&q=site:tryhardguides.com " + clue);
 }
 
-if (window.location.host === "downforacross.com") { crossword_clue (); }
+if (window.location.host === "crosswithfriends.com") { crossword_clue (); }

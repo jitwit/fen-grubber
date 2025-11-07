@@ -9,4 +9,4 @@ async function crossword_check () {
   document.querySelector(puzzle).click();
 }
 
-if (window.location.host === "downforacross.com") { crossword_check (); }
+if (window.location.host === "crosswithfriends.com") { crossword_check (); }

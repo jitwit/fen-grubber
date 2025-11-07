@@ -18,7 +18,8 @@ async function import_to_lichess (pgn) {
 }
 
 async function analyse_freely () {
-  document.getElementsByClassName("share")[0].click();
+  //  document.getElementsByClassName("share")[0].click();
+  document.querySelector("#board-layout-sidebar > div.sidebar-component > div.game-icons-container-component > button:nth-child(1)").click();
   await sleep(500);
   document.getElementById("tab-pgn").click();
   await sleep(500);
