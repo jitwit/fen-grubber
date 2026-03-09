@@ -9,4 +9,4 @@ function write_link () {
   );
 };
 
-if (window.location.host === "crosswithfriends.com") { write_link (); }
+if (window.location.host === "www.crosswithfriends.com") { write_link (); }
